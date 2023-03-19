@@ -1,0 +1,23 @@
+1
+npm init -y 
+(cmd)
+
+2
+npm i tailwindcss postcss-cli autoprefixer @tailwindcss/jit
+
+
+3
+create src > tailwind.css
+
+4 pulict too assets 
+
+5 create tailwind.config.js
+
+6 create postcss add plugins 
+7 tailwind.config add module
+
+
+para productiopn add package in npm 
+i win-node-env
+
+NODE_END=production use this varible

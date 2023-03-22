@@ -5,9 +5,6 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-/* font */
-
-
 *,
 ::before,
 ::after {
@@ -471,41 +468,104 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.inline-block {
-  display: inline-block;
+.fixed {
+  position: fixed;
 }
-.whitespace-nowrap {
-  white-space: nowrap;
+.left-0 {
+  left: 0px;
 }
-.rounded-\[0\.27rem\] {
-  border-radius: 0.27rem;
+.top-0 {
+  top: 0px;
 }
-.bg-red-900 {
+.z-10 {
+  z-index: 10;
+}
+.m-0 {
+  margin: 0px;
+}
+.m-10 {
+  margin: 2.5rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-3 {
+  margin: 0.75rem;
+}
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.flex {
+  display: flex;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-auto {
+  height: auto;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-2\/4 {
+  width: 50%;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-96 {
+  width: 24rem;
+}
+.w-full {
+  width: 100%;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.bg-blue-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
-.px-\[0\.65em\] {
-  padding-left: 0.65em;
-  padding-right: 0.65em;
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
-.pb-\[0\.25em\] {
-  padding-bottom: 0.25em;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
-.pt-\[0\.35em\] {
-  padding-top: 0.35em;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
-.text-center {
-  text-align: center;
+
+/* nav */
+.link {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
-.align-baseline {
-  vertical-align: baseline;
+
+.hover-text:hover {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
-.text-\[0\.75em\] {
-  font-size: 0.75em;
+
+/* home icons */
+
+.home-icons {
+  margin: 1.25rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
-.font-bold {
-  font-weight: 700;
-}
-.leading-none {
-  line-height: 1;
-}
+
+

@@ -3,7 +3,11 @@ module.exports = {
       './*html',
       './pages/**/*.{html,js}'],
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage: theme => ({
+          'wave-pattern': 'url(../img/oskar.jpg)', 
+        }),
+      },
     },
     plugins: [],
   }

@@ -7,3 +7,9 @@
 body{
     font-family: var(--body-family);
 }
+.rotate {
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}

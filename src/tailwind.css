@@ -2,19 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* default */
+.primary-text{
+    @apply text-blue-700
+}
+.default-img{
+    @apply sm:w-72 sm:h-72 w-52 h-52 max-w-md rounded-md shadow-sm 
+}
 /* nav */
 .link{
-    @apply p-2 m-2
+    @apply p-2 m-2 mx-1
 }
-
 .hover-text{
     @apply hover:text-blue-700
 }
 
-/* home icons */
+/* home */
 
 .home-icons{
-    @apply text-4xl m-5
+    @apply sm:text-4xl sm:m-2 text-3xl m-1
 }
+.btn-primary{
+   @apply w-max p-2 bg-blue-700 text-white rounded-md shadow flex items-center
+}
+.btn-secondary{
+    @apply w-max p-2 rounded-md border-dashed border-[3px] border-gray-400
+ }
 
-
+/* about me */
+.circle-logo{
+    @apply absolute sm:w-24 sm:h-24 rounded-full sm:-bottom-9 sm:-right-12 bg-blue-700 flex items-center justify-center 
+    w-16 h-16 -bottom-6 -right-9
+}

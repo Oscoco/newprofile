@@ -6,6 +6,11 @@
 }
 body{
     font-family: var(--body-family);
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: block;
 }
 .rotate {
     animation-name: rotation;

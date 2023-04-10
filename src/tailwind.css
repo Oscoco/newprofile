@@ -19,6 +19,9 @@
 .hover-text{
     @apply hover:text-blue-700
 }
+.box-hover{
+    @apply shadow-md hover:shadow-xl transition-all
+}
 
 /* home */
 

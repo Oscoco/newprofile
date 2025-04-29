@@ -26,7 +26,7 @@
 /* home */
 
 .home-icons{
-    @apply sm:text-4xl sm:m-2 text-4xl m-1
+    @apply sm:text-4xl sm:m-2 text-4xl m-2
 }
 .btn-primary{
    @apply w-max p-2 bg-blue-700 text-white rounded-md shadow flex items-center

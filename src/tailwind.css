@@ -43,7 +43,7 @@
 
 /* about me */
 .circle-logo{
-    @apply absolute sm:w-24 sm:h-24 rounded-full sm:-bottom-9 sm:-right-12 bg-blue-700 flex items-center justify-center 
+    @apply absolute sm:w-24 sm:h-24 rounded-full sm:-bottom-9 sm:-right-12 bg-blue-700 flex items-center justify-center
     w-16 h-16 -bottom-6 -right-5
 }
 
@@ -58,4 +58,10 @@
 /* contac */
 .btn-contact{
     @apply w-max h-11 p-8 flex flex-row items-center bg-white shadow-md rounded-lg hover:shadow-xl transition-all
+}
+
+/* borders aboutme */
+
+.container-aboutme{
+    @apply 
 }
